@@ -1,23 +1,57 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">
+  <br>
+  <a href="https://github.com/mooijtech/goforensics-frontend"><img src="https://i.imgur.com/kd7fwOf.png" alt="Go Forensics Frontend" width="180"></a>
+  <br>
+  Go Forensics Website
+  <br>
+</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h4 align="center">Open source forensic software to analyze and present digital evidence.</h4>
 
-## Deploy your own
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+This is the website for [Go Forensics](https://www.goforensics.io/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+### Installation
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+[Yarn](https://yarnpkg.com/) is required to install dependencies.
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
+$ npm install --global yarn
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+```bash
+# Download or clone this repository.
+$ git clone https://github.com/mooijtech/goforensics-website
+
+# Change directory.
+$ cd goforensics-website
+
+# Make sure you are using Node v16:
+# https://github.com/nvm-sh/nvm
+$ nvm install 16
+
+# Install dependencies.
+$ yarn install
+
+# Set the environment variables
+$ export GO_FORENSICS_DASHBOARD_URL=https://dashboard.goforensics.io
+$ export CRISP_WEBSITE_ID=yourCrispWebsiteID
+
+# Start the server.
+$ yarn run dev
+```
+
+### Libraries
+
+- [@heroicons/react](https://github.com/tailwindlabs/heroicons)
+- [react-line-awesome](https://github.com/Bathlamos/react-line-awesome)
+- [@headlessui/react](https://github.com/tailwindlabs/headlessui)
+- [next-images](https://github.com/twopluszero/next-images)
+- [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
+- [@tailwindcss/typography](https://github.com/tailwindlabs/tailwindcss-typography)
+
+### Images
+
+- [Line Awesome](https://icons8.com/line-awesome)
+- [Office Dave](https://growwwkit.com/illustrations/office-dave/)
