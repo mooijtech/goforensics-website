@@ -604,14 +604,6 @@ export default function IndexView() {
                     Feel free to contact us anytime.
                   </p>
                   <dl className="mt-8 text-base text-gray-500">
-                    <div>
-                      <dt className="sr-only">Postal address</dt>
-                      <dd>
-                        <p>Brink 7</p>
-                        <p>7963 AA Ruinen</p>
-                        <p>Netherlands</p>
-                      </dd>
-                    </div>
                     <div className="mt-6">
                       <dt className="sr-only">Phone number</dt>
                       <dd className="flex">
